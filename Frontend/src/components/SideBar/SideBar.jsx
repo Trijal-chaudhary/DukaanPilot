@@ -51,7 +51,7 @@ const SideBar = ({ Currpage, setCurrPage }) => {
           className={`menuItem4821 ${
             Currpage === "Messages" ? "active4821" : ""
           }`}
-          onClick={() => setCurrPage("Messages")}
+          onClick={() => setCurrPage("Message")}
         >
           <p>Messages</p>
         </div>

@@ -1,0 +1,144 @@
+.outreach8812 {
+  padding: 30px;
+  background: #f6f8fb;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header8812 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag8812 {
+  background: #f3d1a6;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+/* Analysis */
+.analysis8812 {
+  margin-top: 20px;
+  background: #c7d2fe;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bold8812 {
+  font-weight: bold;
+}
+
+.progress8812 {
+  width: 200px;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 10px;
+}
+
+.bar8812 {
+  width: 60%;
+  height: 100%;
+  background: orange;
+  border-radius: 10px;
+}
+
+/* Cards */
+.cards8812 {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.card8812 {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.top8812 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar8812 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.risk8812 {
+  margin-left: auto;
+  background: #fecaca;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.msg8812 {
+  margin: 15px 0;
+  padding: 15px;
+  background: #f3f4f6;
+  border-radius: 15px;
+}
+
+.copy8812 {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background: #0b1b34;
+  color: white;
+  cursor: pointer;
+}
+
+.bottom8812 {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.broadcast8812 {
+  flex: 2;
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.chips8812 {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.chips8812 span {
+  background: #f3d1a6;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.bigBtn8812 {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  background: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.stats8812 {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}

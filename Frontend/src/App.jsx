@@ -8,6 +8,7 @@ import Insight from "./components/Insight/Insight";
 import SignUp from "./components/SignUp/SignUp";
 import Login from "./components/Login/Login";
 import ChatAI from "./components/ChatAI/ChatAI";
+import Message from "./components/Message/Message";
 
 function AppContent() {
   const [Currpage, setCurrPage] = useState("");
@@ -30,6 +31,7 @@ function AppContent() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
           <Route path="/chat" element={<ChatAI />} />
+          <Route path="/message" element={<Message />} />
         </Routes>
       </div>
     </>
