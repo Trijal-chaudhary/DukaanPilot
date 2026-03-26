@@ -1,0 +1,78 @@
+.chat6631 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f6f8fb;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header6631 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header6631 select {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  background: #f3f4f6;
+}
+
+/* Messages */
+.messages6631 {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* AI Message */
+.aiMsg6631 {
+  align-self: flex-start;
+  background: white;
+  padding: 12px 16px;
+  border-radius: 15px;
+  max-width: 60%;
+}
+
+/* User Message */
+.userMsg6631 {
+  align-self: flex-end;
+  background: #0b1b34;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 15px;
+  max-width: 60%;
+}
+
+/* Input */
+.inputBox6631 {
+  display: flex;
+  padding: 15px;
+  background: white;
+  gap: 10px;
+}
+
+.inputBox6631 input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  background: #f3f4f6;
+}
+
+.inputBox6631 button {
+  padding: 12px 18px;
+  border-radius: 50%;
+  border: none;
+  background: #0b1b34;
+  color: white;
+  cursor: pointer;
+}

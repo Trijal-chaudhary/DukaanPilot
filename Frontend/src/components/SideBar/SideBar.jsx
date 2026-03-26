@@ -58,7 +58,9 @@ const SideBar = ({ Currpage, setCurrPage }) => {
       </div>
 
       <div className="aiButtonWrapper4821">
-        <button className="aiButton4821">✨ Ask AI Assistant</button>
+        <button onClick={() => setCurrPage("chat")} className="aiButton4821">
+          ✨ Ask AI Assistant
+        </button>
       </div>
 
       <div className="bottom4821">
