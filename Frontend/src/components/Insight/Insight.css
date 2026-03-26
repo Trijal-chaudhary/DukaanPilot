@@ -1,0 +1,175 @@
+.insights9274 {
+  padding: 30px;
+  background: #f6f8fb;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header9274 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header9274 p {
+  color: #6b7280;
+}
+
+.primaryBtn9274 {
+  background: #0b1b34;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Tabs */
+.tabs9274 {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.tabs9274 button {
+  padding: 10px 18px;
+  border-radius: 20px;
+  border: none;
+  background: #e5e7eb;
+  cursor: pointer;
+}
+
+.activeTab9274 {
+  background: white !important;
+  font-weight: 600;
+}
+
+/* Layout */
+.main9274 {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+/* Table Card */
+.tableCard9274 {
+  flex: 2;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* Header */
+.tableHeader9274 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+/* Rows */
+.tableRow9274 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+.tableRow9274:hover {
+  background: #f3f4f6;
+}
+
+.selected9274 {
+  background: #eef2ff;
+}
+
+/* User */
+.user9274 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar9274 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.green9274 {
+  background: #6ee7b7;
+}
+
+/* Tags */
+.tag9274 {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.warning9274 {
+  background: #fef3c7;
+}
+
+.danger9274 {
+  background: #fecaca;
+}
+
+.success9274 {
+  background: #bbf7d0;
+}
+
+/* Right Section */
+.right9274 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* AI Card */
+.aiCard9274 {
+  background: linear-gradient(135deg, #0b1b34, #1e293b);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.optionBtn9274 {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background: #1f2937;
+  color: white;
+  cursor: pointer;
+}
+
+.secondary9274 {
+  background: #374151;
+}
+
+/* Growth */
+.growth9274 {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.growth9274 p {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.growth9274 span {
+  font-size: 12px;
+  color: #6b7280;
+}

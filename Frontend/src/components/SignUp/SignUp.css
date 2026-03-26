@@ -1,0 +1,72 @@
+.signup5582 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f6f8fb;
+  font-family: Arial, sans-serif;
+}
+
+.card5582 {
+  width: 350px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.card5582 h2 {
+  text-align: center;
+}
+
+.sub5582 {
+  text-align: center;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.form5582 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Inputs */
+.form5582 input,
+.form5582 select {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #f3f4f6;
+  outline: none;
+}
+
+/* Button */
+.btn5582 {
+  margin-top: 10px;
+  padding: 14px;
+  border-radius: 25px;
+  border: none;
+  background: #0b1b34;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn5582:hover {
+  background: #142a50;
+}
+
+.login5582 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login5582 span {
+  color: #a16207;
+  cursor: pointer;
+  font-weight: 600;
+}
